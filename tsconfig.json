@@ -1,0 +1,34 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.config.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ],
+  // "extends": "./tsconfig.base.json",
+  // "compilerOptions": {
+  //   "paths": {
+  //     "@/*": [
+  //       "src/*"
+  //     ],
+  //     "~/*": [
+  //       "typings/*"
+  //     ]
+  //   }
+  // },
+  // "include": [
+  //   "src",
+  //   "typings",
+  //   // "auto-imports.d.ts"
+  // ],
+  // "exclude": [
+  //   "node_modules",
+  //   "**/dist"
+  // ]
+}
