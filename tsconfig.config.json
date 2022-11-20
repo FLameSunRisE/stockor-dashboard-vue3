@@ -1,8 +1,26 @@
 {
   "extends": "@vue/tsconfig/tsconfig.node.json",
-  "include": ["vite.config.*", "vitest.config.*", "cypress.config.*", "playwright.config.*"],
+  "include": [
+    "vite.config.*",
+    "vitest.config.*",
+    "cypress.config.*",
+    "playwright.config.*",
+    // "src",
+    // "typings",
+    "auto-imports.d.ts"
+  ],
   "compilerOptions": {
     "composite": true,
-    "types": ["node"]
+    "types": [
+      "node"
+    ],
+    // "paths": {
+    //   "@typings": [
+    //     "src/typings/*"
+    //   ],
+    //   // "~/*": [
+    //   //   "typings/*"
+    //   // ]
+    // }
   }
 }
